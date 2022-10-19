@@ -1,0 +1,2 @@
+apk_name=$(find ./app -name "*.apk")
+echo "$apk_name"

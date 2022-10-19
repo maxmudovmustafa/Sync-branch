@@ -1,0 +1,5 @@
+curl -L -o /usr/bin/jq.exe https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe
+echo $(curl -X GET -g "https://api.bitbucket.org/2.0/users/edaaab5a-7b76-4855-8086-4734bf6182db" | jq --raw-output '.display_name')
+- export BITBUCKET_TRIGGERER_USERNAME=$(curl -X GET -g "https://api.bitbucket.org/2.0/users/edaaab5a-7b76-4855-8086-4734bf6182db" | jq --raw-output '.display_name')
+
+echo BITBUCKET_TRIGGERER_USERNAME

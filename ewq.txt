@@ -1,0 +1,5 @@
+firebase appdistribution:distribute C:\Users\shohr\Downloads\Telegram Desktop\Payme_2.33.21-prod-debug.apk 
+   --app 1:318021200225:android:b4995c9ceb134795 
+   --token 1//0cRm-Vm7Q9ozaCgYIARAAGAwSNwF-L9Ir5OMqjC35BBXNEQCi6jL_GAaJ3G3X6DJcvrvzRMfolJXaauv6sm31Iid8HONQvl7gRi8 
+   --release-notes "D:\release-notes.txt"
+   --testers-file "D:\testers.txt"

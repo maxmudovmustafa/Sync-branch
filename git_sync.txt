@@ -18,6 +18,7 @@ else
     git add .
     git commit -m "Merge with master"
     git push origin "$branch"
+    git checkout master
     # exit 2  # (optional)
     
 fi

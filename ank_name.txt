@@ -1,5 +1,6 @@
 #apk_name=$(find ./app -name "*.apk")
 #echo "$apk_name"
 number = "9"
+echo "${git status --porcelain -suno|wc -l}"
 git status --porcelain -suno|wc -l
 echo "s- $number"

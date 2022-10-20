@@ -14,3 +14,16 @@ report-file.txt:    ank_name.txt:$(git grep '<<<<<<< HEAD')
 report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
     -----------------------------------------------------------
     
+Branch name- master 
+
+    Conflict files- 
+    ank_name.txt:$(git grep '<<<<<<< HEAD')
+git_sync.txt:    $(git grep '<<<<<<< HEAD')
+report-file.txt:    ank_name.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
+report-file.txt:    ank_name.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
+report-file.txt:report-file.txt:    ank_name.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
+    -----------------------------------------------------------
+    

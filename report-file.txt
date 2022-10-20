@@ -88,3 +88,9 @@ report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
 -----------------------------------------------------------
 
 >>>>>>> Stashed changes
+Branch name- branch 
+
+Conflict files- 
+
+-----------------------------------------------------------
+

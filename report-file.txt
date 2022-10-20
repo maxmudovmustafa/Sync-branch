@@ -3,7 +3,88 @@ Branch name- branch
 Conflict files- 
 ank_name.txt:<<<<<<< HEAD
 bla.txt:<<<<<<< HEAD
+<<<<<<< Updated upstream
 release-notes.txt:<<<<<<< HEAD
 testers.txt:<<<<<<< HEAD
 -----------------------------------------------------------
 
+=======
+git_sync.txt:<<<<<<< HEAD
+git_sync.txt:    $(git grep '<<<<<<< HEAD')
+<<<<<<< Updated upstream
+=======
+release-notes.txt:<<<<<<< HEAD
+report-file.txt:ank_name.txt:<<<<<<< HEAD
+report-file.txt:bla.txt:<<<<<<< HEAD
+report-file.txt:release-notes.txt:<<<<<<< HEAD
+report-file.txt:testers.txt:<<<<<<< HEAD
+testers.txt:<<<<<<< HEAD
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+    -----------------------------------------------------------
+    
+=======
+-----------------------------------------------------------
+
+Branch name- branch 
+
+Conflict files- 
+ank_name.txt:<<<<<<< HEAD
+ank_name.txt:$(git grep '<<<<<<< HEAD')
+bla.txt:<<<<<<< HEAD
+copy_report.txt:$(git grep '<<<<<<< HEAD')
+git_sync.txt:<<<<<<< HEAD
+git_sync.txt:$(git grep '<<<<<<< HEAD')
+release-notes.txt:<<<<<<< HEAD
+report-file.txt:ank_name.txt:<<<<<<< HEAD
+report-file.txt:bla.txt:<<<<<<< HEAD
+report-file.txt:release-notes.txt:<<<<<<< HEAD
+report-file.txt:testers.txt:<<<<<<< HEAD
+testers.txt:<<<<<<< HEAD
+-----------------------------------------------------------
+
+>>>>>>> Stashed changes
+Branch name- debug 
+
+Conflict files- 
+ank_name.txt:$(git grep '<<<<<<< HEAD')
+bla.txt:<<<<<<< HEAD
+git_sync.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:    ank_name.txt:<<<<<<< HEAD
+report-file.txt:ank_name.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:bla.txt:<<<<<<< HEAD
+report-file.txt:copy_report.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
+report-file.txt:release-notes.txt:<<<<<<< HEAD
+report-file.txt:report-file.txt:ank_name.txt:<<<<<<< HEAD
+report-file.txt:report-file.txt:bla.txt:<<<<<<< HEAD
+report-file.txt:report-file.txt:release-notes.txt:<<<<<<< HEAD
+report-file.txt:report-file.txt:testers.txt:<<<<<<< HEAD
+report-file.txt:testers.txt:<<<<<<< HEAD
+-----------------------------------------------------------
+
+Branch name- dev 
+
+Conflict files- 
+ank_name.txt:$(git grep '<<<<<<< HEAD')
+bla.txt:<<<<<<< HEAD
+git_sync.txt:<<<<<<< HEAD
+git_sync.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:    ank_name.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:bla.txt:<<<<<<< HEAD
+report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
+-----------------------------------------------------------
+
+Branch name- develop 
+
+Conflict files- 
+ank_name.txt:$(git grep '<<<<<<< HEAD')
+git_sync.txt:<<<<<<< HEAD
+git_sync.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:    ank_name.txt:$(git grep '<<<<<<< HEAD')
+report-file.txt:bla.txt:<<<<<<< HEAD
+report-file.txt:git_sync.txt:<<<<<<< HEAD
+report-file.txt:git_sync.txt:    $(git grep '<<<<<<< HEAD')
+-----------------------------------------------------------
+
+>>>>>>> Stashed changes

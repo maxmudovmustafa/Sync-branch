@@ -1,2 +1,9 @@
-apk_name=$(find ./app -name "*.apk")
-echo "$apk_name"
+#apk_name=$(find ./app -name "*.apk")
+#echo "$apk_name"
+STR="foo"
+STRS=$(git status --porcelain -suno|wc -l)
+SS=$(git diff --name-only --diff-filter=U --relative)
+echo "$STRS"
+echo "$SS"
+git status --porcelain -suno|wc -l
+echo "s- $STR"

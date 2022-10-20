@@ -19,6 +19,7 @@ $(git grep '<<<<<<< HEAD')
 ")
     echo "$report_conflict"
     git reset --merge
+    git stash pop
     #git add .
     #git commit -m "Merge with master"
     #git push origin "${branch}"
@@ -26,8 +27,8 @@ $(git grep '<<<<<<< HEAD')
     git add .
     git stash save
     git checkout master
-    git stash pop
 fi
 
 }
 done
+git stash pop

@@ -1,4 +1,3 @@
-### Init
-## Deploy Firebase
-# Description
+Init
+Deploy Firebase
 Some text

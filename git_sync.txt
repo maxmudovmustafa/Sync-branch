@@ -23,6 +23,7 @@ $(git diff --name-only --diff-filter=U)
     #git commit -m "Merge with master"
     #git push origin "${branch}"
     git checkout master
+    git stash pop
     echo "$report_conflict" >> report-file.txt
     git add .
     git stash save

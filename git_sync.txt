@@ -24,8 +24,9 @@ $(git grep '<<<<<<< HEAD')
     #git commit -m "Merge with master"
     #git push origin "${branch}"
     git checkout master
-    echo "$report_conflict" >> report-file.txt
+    
 fi
 
 }
 done
+echo "$report_conflict" >> report-file.txt

@@ -14,7 +14,7 @@ else
     report_conflict=("Branch name- $(git branch --show-current) 
 
 Conflict files- 
-$(git config --global alias.conflicts "diff --name-only --diff-filter=U)
+$(git config --global alias.conflicts diff --name-only --diff-filter=U)
 -----------------------------------------------------------
 ")
     echo "$report_conflict"

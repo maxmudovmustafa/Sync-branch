@@ -24,8 +24,11 @@ $(git diff --name-only --diff-filter=U)
     #git push origin "${branch}"
     git checkout master
     echo "$report_conflict" >> report-file.txt
+    git add .
+    git stash save
 fi
 
 }
 done
+git stash pop
 #$(git grep '<<<<<<< HEAD')

@@ -19,7 +19,6 @@ $(git diff --name-only --diff-filter=U)
 ")
     echo "$report_conflict"
     git reset --merge
-    git stash pop
     git add .
     git commit -m "Merge with master"
     git push origin "${branch}"

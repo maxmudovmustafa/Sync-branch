@@ -1,0 +1,9 @@
+Branch name- branch 
+
+Conflict files- 
+ank_name.txt:<<<<<<< HEAD
+bla.txt:<<<<<<< HEAD
+release-notes.txt:<<<<<<< HEAD
+testers.txt:<<<<<<< HEAD
+-----------------------------------------------------------
+

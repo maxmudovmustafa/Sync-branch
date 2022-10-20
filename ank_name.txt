@@ -1,9 +1,18 @@
 #apk_name=$(find ./app -name "*.apk")
 #echo "$apk_name"
+ : > report-file.txt
 STR="foo"
 STRS=$(git status --porcelain -suno|wc -l)
-SS=$(git diff --name-only --diff-filter=U --relative)
-echo "$STRS"
-echo "$SS"
+SS=$(grep -rnw . -e '^<<<<<<<$')
+echo "Conflict $STRS"
+echo "Changed files $SS"
 git status --porcelain -suno|wc -l
-echo "s- $STR"
+
+report_conflict=("Branch name- $(git branch --show-current) 
+
+Conflict files- 
+$(git grep '<<<<<<< HEAD')
+-----------------------------------------------------------
+")
+echo "$report_conflict"
+echo "$report_conflict" >> report-file.txt

@@ -14,21 +14,19 @@ else
     report_conflict=("Branch name- $(git branch --show-current) 
 
 Conflict files- 
-$(git grep '<<<<<<< HEAD')
+$(git config --global alias.conflicts "diff --name-only --diff-filter=U)
 -----------------------------------------------------------
 ")
     echo "$report_conflict"
     git reset --merge
     git stash pop
-    #git add .
-    #git commit -m "Merge with master"
-    #git push origin "${branch}"
-    echo "$report_conflict" >> report-file.txt
     git add .
-    git stash save
+    git commit -m "Merge with master"
+    git push origin "${branch}"
+    echo "$report_conflict" >> report-file.txt
     git checkout master
 fi
 
 }
 done
-git stash pop
+#$(git grep '<<<<<<< HEAD')

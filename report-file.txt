@@ -1,0 +1,8 @@
+Branch name- debug 
+
+    Conflict files- 
+    ank_name.txt:$(git grep '<<<<<<< HEAD')
+bla.txt:<<<<<<< HEAD
+git_sync.txt:    $(git grep '<<<<<<< HEAD')
+    -----------------------------------------------------------
+    

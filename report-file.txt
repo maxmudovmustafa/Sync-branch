@@ -115,3 +115,13 @@ Conflict files-
 
 =======
 >>>>>>> Stashed changes
+Branch name- branch 
+
+Conflict files- 
+ank_name.txt
+bla.txt
+git_sync.txt
+release-notes.txt
+testers.txt
+-----------------------------------------------------------
+

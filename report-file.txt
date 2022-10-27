@@ -5,3 +5,32 @@ Help me
 Found
 Help me
 Help me
+Branch name- branch 
+
+Conflict files: 
+ank_name.txt
+bla.txt
+git_sync.txt
+release-notes.txt
+testers.txt
+-----------------------------------------------------------
+
+Branch name- debug 
+
+Conflict files: 
+bla.txt
+-----------------------------------------------------------
+
+Branch name- dev 
+
+Conflict files: 
+bla.txt
+git_sync.txt
+-----------------------------------------------------------
+
+Branch name- develop 
+
+Conflict files: 
+git_sync.txt
+-----------------------------------------------------------
+

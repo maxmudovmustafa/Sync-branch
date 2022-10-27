@@ -1,6 +1,7 @@
 git checkout dev
+git pull origin master
 report_conflict="Help me"
-
+git reset --merge
 git add .
 git stash save
 
@@ -11,7 +12,9 @@ git add .
 git stash save
 
 git checkout dev
-report_conflict="Found"
+git pull origin master
+report_conflict="Help me"
+git reset --merge
 
 git add .
 git stash save

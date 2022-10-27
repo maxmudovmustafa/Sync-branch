@@ -1,0 +1,3 @@
+
+report=(report-file.txt)
+curl -F document=@"$report" -F caption="Report Conflict files" https://api.telegram.org/bot1282139079:AAGxWsN3uZnBYW8bFbOP8hMZJT7t6L_0DGs/sendDocument?chat_id=194952542

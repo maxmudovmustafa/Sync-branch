@@ -1,3 +1,21 @@
-More text here
-More and more
-//
+git checkout dev
+report_conflict="Help me"
+
+git add .
+git stash save
+
+git checkout master
+git stash pop
+echo "$report_conflict" >> report-file.txt
+git add .
+git stash save
+
+git checkout dev
+report_conflict="Found"
+
+git add .
+git stash save
+
+git checkout master
+git stash pop
+echo "$report_conflict" >> report-file.txt
